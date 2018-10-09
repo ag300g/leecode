@@ -1,4 +1,6 @@
-# Given a string, 
+#!/usr/bin/env python
+# -*- coding:UTF-8 -*-
+# Given a string,
 # find the length of the longest substring without repeating characters. 
 # For example, 
 # the longest substring without repeating letters for "abcabcbb" is "abc", 
@@ -27,4 +29,4 @@ if __name__ == '__main__':
    s = "wlrbbmqbhcdarzowkkyhiddqscdxrjmowfrxsjybldbefsarcbynecdyggxxpklorellnmpapqfwkhopkmco"
    test = Solution()
    out = test.lengthOfLongestSubstring(s)
-   print out
+   print(out)

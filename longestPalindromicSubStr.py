@@ -1,8 +1,12 @@
-# Given a string S, find the longest palindromic substring in S. 
+#!/usr/bin/env python
+# -*- coding:UTF-8 -*-
+
+# Given a string S, find the longest palindromic substring in S.
 # You may assume that the maximum length of S is 1000, 
 # and there exists one unique longest palindromic substring.
 
 # this version exceeds time limit on large data set
+
 class Solution:
     # @return a string
     def longestPalindrome(self, s):
@@ -27,8 +31,8 @@ class Solution:
         return [start, end+1]
 
 if __name__ == '__main__':
-   s = 'abcdeed'
+   s = 'abcdeedasdfgfdsa'
    test = Solution()
    out = test.longestPalindrome(s)
-   print out
+   print(out)
 
